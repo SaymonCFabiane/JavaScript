@@ -17,6 +17,8 @@
         document.write(`Olá, <strong>${nome}</strong>. Seu nome tem ${nome.length} letras.<br>`)
         document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}.<br>`)
         document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+        var salario = Number(window.prompt('Qual é o valor do seu salario mensal'))
+        document.write(`Seu salario é de ${salario.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})} por mês.`)
     </script>
     
 </body>
