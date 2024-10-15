@@ -19,6 +19,4 @@ function contar(){
     cont.innerHTML += `👉 ${i} `
     i += ps
    }
-
-
 }
