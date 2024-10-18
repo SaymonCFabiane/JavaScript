@@ -1,4 +1,5 @@
 let num = [5, 8, 2, 9, 3] 
+num.sort()
 /*
 num [5] = 9
 num.sort()
@@ -11,9 +12,15 @@ for(i = 0; i<num.length; i++){
 }
 for(i = 0; i<num.length; i++){
     console.log(`A posição ${i} tem o valor ${num[i]}`)
-}*/
-console.log("Separação")
+}
+//console.log("Separação")
 for(let i in num){
     console.log(`A posição ${i} tem o valor ${num[i]}`)
     } 
-
+console.log(`O valor 8 está na posição: ${num.indexOf(8)}`) */
+let pos = num.indexOf(5)
+if(pos == -1){
+    console.log("O valor não foi encontrado")
+}else{
+    console.log(`O valor 8 está na posição: ${pos}`)
+}
