@@ -13,10 +13,17 @@ function contar(){
         window.alert('Erro Passo não pode começar com 0')
     }
 
-    cont.innerHTML = ''
-
+    cont.innerHTML = 'Contando: '
+    if(ini < cont){
    while(i <= fim){    
     cont.innerHTML += `👉 ${i} `
     i += ps
    }
+   cont.innerHTML += ` 👉\u{1f3c1}`
+   
 }
+else{
+    window.alert('Erro o final deve ser maior que o inicio.')
+   }
+}
+
