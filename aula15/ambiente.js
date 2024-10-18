@@ -9,3 +9,11 @@ console.log("Separação")
 for(i = 0; i<num.length; i++){
     console.log(`O numero é: ${num[i]}`)
 }
+for(i = 0; i<num.length; i++){
+    console.log(`O posição ${i} tem o valor ${num[i]}`)
+}
+for(let i in num){
+
+    console.log()
+    
+    }
