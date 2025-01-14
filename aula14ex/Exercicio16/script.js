@@ -14,16 +14,16 @@ function contar(){
     }
 
     cont.innerHTML = 'Contando: '
-    if(ini < cont){
+    if(ini < fim){
    while(i <= fim){    
     cont.innerHTML += `👉 ${i} `
     i += ps
    }
    cont.innerHTML += ` 👉\u{1f3c1}`
    
-}
-else{
-    window.alert('Erro o final deve ser maior que o inicio.')
-   }
-}
+    }
+    else{
+        window.alert('Erro o final deve ser maior que o inicio.')
+    }
+    }
 
